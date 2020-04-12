@@ -1,4 +1,4 @@
-from Question import Questions
+from Question import Question
 
 question_prompts = [
     "What does NATO stand for?\n(a) North Atlantic Treaty Organization\n(b) North America Treaty Organization\n(c) North Atlantic Trust Organization\n(d) North Alliance Treaty Organization\n\n",
@@ -10,12 +10,12 @@ question_prompts = [
 ]
 
 questions = [
-    Questions(question_prompts[0], "a"),
-    Questions(question_prompts[1], "b"),
-    Questions(question_prompts[2], "a"),
-    Questions(question_prompts[3], "b"),
-    Questions(question_prompts[4], "d"),
-    Questions(question_prompts[5], "a"),
+    Question(question_prompts[0], "a"),
+    Question(question_prompts[1], "b"),
+    Question(question_prompts[2], "a"),
+    Question(question_prompts[3], "b"),
+    Question(question_prompts[4], "d"),
+    Question(question_prompts[5], "a"),
 ]
 
 
